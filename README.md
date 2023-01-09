@@ -8,7 +8,7 @@
 
 ## Schematic
 
-[PDF](axis-schematic.pdf)
+[PDF](axis.pdf)
 
 ## Bill Of Materials
 
