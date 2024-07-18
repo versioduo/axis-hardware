@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 axis")
-		(date "2024-04-18")
-		(rev "3")
+		(date "2024-07-18")
+		(rev "4")
 		(company "Versio Duo")
 		(comment 1 "Orientation Sensor")
 	)
