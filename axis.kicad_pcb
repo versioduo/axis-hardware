@@ -554,7 +554,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7781aa2a-f4a8-4363-9b98-b47bbfd4058a")
+			(uuid "81f9f1c1-31bf-4ed6-ae67-60ffae8fc2c6")
 		)
 		(pad "2" smd rect
 			(at -1.5625 0.8375 270)
@@ -572,7 +572,7 @@
 			(net 59 "/Button")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "044f53d4-e605-4fc4-b1f0-a77647212e9b")
+			(uuid "8524daeb-d7f6-4504-bca8-8df2a2442fdd")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Button_Switch_SMD.3dshapes/SKSG.step"
@@ -1728,7 +1728,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "8a51cc06-fe11-4b4f-9beb-647a59f00248")
+			(uuid "e6270f2b-8933-4be2-8316-d7e195f119f5")
 		)
 		(pad "S" thru_hole oval
 			(at -4.32 -2.675 270)
@@ -1758,7 +1758,7 @@
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.06)
 			(zone_connect 2)
-			(uuid "9373ba08-6d3a-4c6e-a587-3351705021e3")
+			(uuid "028f6734-6c15-4837-805f-21691d63133d")
 		)
 		(pad "S" smd rect
 			(at -1.4 1.15 270)
@@ -1768,7 +1768,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "9373ba08-6d3a-4c6e-a587-3351705021e3")
+			(uuid "5585957b-360b-4af5-9e33-9960502bd65c")
 		)
 		(pad "S" smd rect
 			(at 1.4 1.15 270)
@@ -1778,7 +1778,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "9373ba08-6d3a-4c6e-a587-3351705021e3")
+			(uuid "50e89498-98ae-4b90-bb3f-455dcc13a70c")
 		)
 		(pad "S" thru_hole oval
 			(at 4.32 -2.675 270)
@@ -1793,7 +1793,7 @@
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.06)
 			(zone_connect 2)
-			(uuid "9373ba08-6d3a-4c6e-a587-3351705021e3")
+			(uuid "0a871a6d-bbb7-4b49-a34c-b256c1bb8dc3")
 		)
 		(pad "S" thru_hole oval
 			(at 4.32 1.15 270)
@@ -1808,7 +1808,7 @@
 			(pintype "passive")
 			(solder_paste_margin_ratio 0.06)
 			(zone_connect 2)
-			(uuid "9373ba08-6d3a-4c6e-a587-3351705021e3")
+			(uuid "bde647c6-7804-40f4-ab63-87fd89027131")
 		)
 		(pad "V" smd rect
 			(at -2.35 -3.05 270)
@@ -1826,7 +1826,7 @@
 			(net 33 "+5V")
 			(pinfunction "VBUS")
 			(pintype "passive")
-			(uuid "52b6b3a2-45f4-42e3-bf02-16ade87c660e")
+			(uuid "fe3e0d01-6e96-4fed-b503-69e4355c5ebb")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Connector_USB.3dshapes/DX07S016JA1R1500.step"
@@ -2298,7 +2298,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "724c4fee-35b4-407d-8c40-b01c65289e54")
+			(uuid "c54fa060-9a09-4757-b94e-ab6a477eca68")
 		)
 		(pad "9" smd rect
 			(at 0 0 180)
@@ -2307,7 +2307,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "724c4fee-35b4-407d-8c40-b01c65289e54")
+			(uuid "68a00682-1c3f-4028-bde6-721af17ce9a5")
 		)
 		(pad "9" thru_hole circle
 			(at 0 0.75 180)
@@ -2320,7 +2320,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "724c4fee-35b4-407d-8c40-b01c65289e54")
+			(uuid "57eb760f-939f-4174-8095-e014b5acbffa")
 		)
 		(pad "9" thru_hole circle
 			(at 0.5 0 180)
@@ -2333,7 +2333,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "724c4fee-35b4-407d-8c40-b01c65289e54")
+			(uuid "307908a0-0b4e-4129-8189-3a838ff37d15")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Package_SON.3dshapes/Texas_S-PVSON-N8.wrl"
@@ -4178,7 +4178,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "641e2b2f-1181-484c-b5d0-cbf59e856e25")
 		)
 		(pad "49" thru_hole circle
 			(at -2.475 0)
@@ -4193,7 +4193,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "b8bee087-2741-4413-a07a-9cb7542e5553")
 		)
 		(pad "49" thru_hole circle
 			(at -2.475 1.2375)
@@ -4208,7 +4208,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "56a1a9fb-90b0-481b-9710-d18c2e45547b")
 		)
 		(pad "49" thru_hole circle
 			(at -2.475 2.475)
@@ -4223,7 +4223,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "0768ddae-0c27-4710-a69d-3028b5c5380e")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2375 -2.475)
@@ -4238,7 +4238,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "4e21990c-32ae-4c69-8e6f-ab8c918afbe3")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2375 -1.2375)
@@ -4253,7 +4253,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "23684f49-b33e-43ff-bb81-aa7ab1a10fea")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2375 0)
@@ -4268,7 +4268,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "ca5cc75f-5992-43d2-9659-c848bb5cce71")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2375 1.2375)
@@ -4283,7 +4283,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "dbebaf00-6a64-4dc5-bb9d-fe17c4372098")
 		)
 		(pad "49" thru_hole circle
 			(at -1.2375 2.475)
@@ -4298,7 +4298,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "63c8272c-d587-41d2-ac54-2f7f90626c9f")
 		)
 		(pad "49" thru_hole circle
 			(at 0 -2.475)
@@ -4313,7 +4313,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "72fac2de-b9ba-4827-8758-5f8ab3bce470")
 		)
 		(pad "49" thru_hole circle
 			(at 0 -1.2375)
@@ -4328,7 +4328,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "9390157e-1308-4bd7-9107-16d52f6ade89")
 		)
 		(pad "49" thru_hole circle
 			(at 0 0)
@@ -4343,7 +4343,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "14dc1110-0aa3-47d2-bad6-055e8ebf6465")
 		)
 		(pad "49" smd custom
 			(at 0 0)
@@ -4365,7 +4365,7 @@
 					(fill no)
 				)
 			)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "22a2fe32-260c-424b-9a12-e73b9892c52d")
 		)
 		(pad "49" thru_hole circle
 			(at 0 1.2375)
@@ -4380,7 +4380,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "3c5871d4-9570-4549-ab96-be84b4f30161")
 		)
 		(pad "49" thru_hole circle
 			(at 0 2.475)
@@ -4395,7 +4395,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "0d170097-3875-471b-9097-4b2b9681520e")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2375 -2.475)
@@ -4410,7 +4410,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "63e17b3e-1234-4fe2-9f2b-c5c9ebaef38d")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2375 -1.2375)
@@ -4425,7 +4425,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "b7e69195-4c90-4f92-bd7b-a7ab1f1dcd99")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2375 0)
@@ -4440,7 +4440,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "add4f51c-3b4c-42b3-a273-56c3831225df")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2375 1.2375)
@@ -4455,7 +4455,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "06ef79ea-60af-4da8-8ab5-7569a268123b")
 		)
 		(pad "49" thru_hole circle
 			(at 1.2375 2.475)
@@ -4470,7 +4470,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "ea16418e-50d4-40f9-b5ea-ee620ad0dd99")
 		)
 		(pad "49" thru_hole circle
 			(at 2.475 -2.475)
@@ -4485,7 +4485,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "7e90d286-c41b-4786-a144-1c3029eb9310")
 		)
 		(pad "49" thru_hole circle
 			(at 2.475 -1.2375)
@@ -4500,7 +4500,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "03bb718a-1d58-4ba3-a017-5120e003fad1")
 		)
 		(pad "49" thru_hole circle
 			(at 2.475 0)
@@ -4515,7 +4515,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "a5263f3b-d985-48ec-b238-c9c965b826c1")
 		)
 		(pad "49" thru_hole circle
 			(at 2.475 1.2375)
@@ -4530,7 +4530,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "f684a156-1de1-42fc-8f0d-911205ff4b8f")
 		)
 		(pad "49" thru_hole circle
 			(at 2.475 2.475)
@@ -4545,7 +4545,7 @@
 			(pinfunction "PAD")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "efcc8dac-158a-4546-901e-6bd75556553b")
+			(uuid "cf7eb2ae-658a-4ce2-893e-493bcc23c25f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.step"
@@ -6223,7 +6223,7 @@
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "122c2950-8367-4330-98c7-bb3fdee60644")
+			(uuid "fd3bd211-d6e2-4b37-bc00-e9d98703fdb2")
 		)
 		(pad "2" smd rect
 			(at -1.5625 0.8375 180)
@@ -6241,7 +6241,7 @@
 			(net 42 "/RESET")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "a2ec4350-1ee5-4295-b959-8f1666721db3")
+			(uuid "68da1632-45a2-4ea9-bd4f-cedfe22aee51")
 		)
 		(embedded_fonts no)
 		(model "../../3dmodels/V2_Button_Switch_SMD.3dshapes/SKSG.step"
@@ -7646,7 +7646,7 @@
 					(fill no)
 				)
 			)
-			(uuid "5bdfba50-a369-4798-9078-958b29266c6f")
+			(uuid "4a351b23-43ec-4b04-83a3-eadff49f1f06")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243.step"
@@ -8339,7 +8339,7 @@
 					(fill no)
 				)
 			)
-			(uuid "4e70a76f-bc11-4766-af52-282afb42f770")
+			(uuid "ee8b9dd1-211b-4350-bd87-85dc43476dbf")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243.step"
