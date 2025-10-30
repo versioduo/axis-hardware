@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6c8448b4-b04d-47e1-934e-e40cbe27a7be")
 	(paper "A4")
 	(title_block
 		(title "V2 axis")
-		(date "2024-07-19")
-		(rev "2")
+		(date "2025-10-30")
+		(rev "3")
 		(company "Versio Duo")
 		(comment 1 "cover")
 	)
@@ -101,6 +101,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_Artwork:V2-logo"
 			(exclude_from_sim no)
@@ -161,19 +162,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "V2_Artwork:Logo_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "V2-logo_1_0"
 				(polyline
 					(pts
-						(xy -3.302 2.54) (xy 3.048 2.54) (xy 3.048 -2.54) (xy -3.302 -2.54) (xy -3.302 -1.27)
+						(xy -3.302 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -3.302 -2.54) (xy -3.302 -1.27)
 					)
 					(stroke
 						(width 0.3)
@@ -183,15 +175,19 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "V2-logo_1_1"
 				(text "V2"
-					(at -0.2055 -0.4053 0)
+					(at -0.508 -0.254 0)
 					(effects
 						(font
 							(size 3 3)
+							(thickness 0.375)
 						)
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_Mechanical:MountingHole_1mm"
 			(pin_names
@@ -283,11 +279,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_Mechanical:MountingHole_2mm_Pad_5.2mm"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -394,6 +395,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_PCB_Devices:Button-top"
 			(exclude_from_sim no)
@@ -466,6 +468,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_Production:Order_Number"
 			(exclude_from_sim no)
@@ -547,12 +550,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -643,12 +651,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -739,6 +752,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1019,7 +1033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Mechanical:Mounting_Hole_2mm_Pad_5.2mm"
+		(property "Footprint" "V2_Mechanical:MountingHole_2mm_Pad_5.2mm"
 			(at 119.38 78.74 0)
 			(effects
 				(font
@@ -1374,7 +1388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Mechanical:Mounting_Hole_2mm_Pad_5.2mm"
+		(property "Footprint" "V2_Mechanical:MountingHole_2mm_Pad_5.2mm"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -1427,4 +1441,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
