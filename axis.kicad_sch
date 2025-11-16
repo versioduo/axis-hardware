@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 axis")
-		(date "2025-10-26")
-		(rev "5")
+		(date "2025-11-16")
+		(rev "6")
 		(company "Versio Duo")
 		(comment 1 "Orientation Sensor")
 	)
@@ -8047,7 +8047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -8093,7 +8093,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 247.65 151.13 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8136,15 +8136,6 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 247.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 247.65 151.13 0)
 			(effects
 				(font
@@ -9439,7 +9430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -13027,7 +13018,7 @@
 		(dnp no)
 		(uuid "ff5fa334-854e-4ca7-a359-9c419e0f5264")
 		(property "Reference" "ICON101"
-			(at 176.53 149.86 0)
+			(at 176.53 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13036,7 +13027,7 @@
 			)
 		)
 		(property "Value" "V2-logo"
-			(at 176.53 152.4 0)
+			(at 176.53 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
