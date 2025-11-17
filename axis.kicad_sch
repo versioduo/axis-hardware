@@ -5250,12 +5250,6 @@
 		(uuid "2f2b420c-a9eb-48f3-92ba-ad28730656d9")
 	)
 	(junction
-		(at 64.77 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3254085f-d8f0-44e1-936a-d176253c373d")
-	)
-	(junction
 		(at 105.41 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5290,12 +5284,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ab1bf33-6530-4d8e-883f-983ee8d55990")
-	)
-	(junction
-		(at 64.77 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b96df0b-1fef-4d2b-b0d1-0a8aa778e08e")
 	)
 	(junction
 		(at 85.09 165.1)
@@ -5609,16 +5597,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 148.59) (xy 64.77 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e7c45d-1128-4318-9ed5-bb301393a01f")
-	)
-	(wire
-		(pts
 			(xy 148.59 167.64) (xy 148.59 166.37)
 		)
 		(stroke
@@ -5696,16 +5674,6 @@
 			(type default)
 		)
 		(uuid "32fcce95-5d29-4623-ba93-d5477b8caa80")
-	)
-	(wire
-		(pts
-			(xy 64.77 153.67) (xy 74.93 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3431aea7-3525-48c8-8017-079bbf33dfa9")
 	)
 	(wire
 		(pts
@@ -6259,7 +6227,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 148.59) (xy 74.93 148.59)
+			(xy 59.69 148.59) (xy 64.77 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8349,75 +8317,6 @@
 			(project "axis"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a6f7bee-4855-4add-b702-25a07d56ec9f")
-		(property "Reference" "C110"
-			(at 66.675 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1"
-			(at 66.675 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 64.77 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ccb6b86-f1c3-47ef-a8b1-da8d0c619ea6")
-		)
-		(pin "2"
-			(uuid "58f1b9e9-0167-41fb-9564-ab81aee35a8c")
-		)
-		(instances
-			(project "axis"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -11998,7 +11897,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 74.93 151.13 0)
+		(at 64.77 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12006,7 +11905,7 @@
 		(dnp no)
 		(uuid "e36fe40f-c4b2-45a4-9a32-8eb838783005")
 		(property "Reference" "C111"
-			(at 76.835 149.86 0)
+			(at 66.675 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12015,7 +11914,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 76.835 152.4 0)
+			(at 66.675 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12024,7 +11923,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 74.93 151.13 0)
+			(at 64.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12033,7 +11932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 151.13 0)
+			(at 64.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12042,7 +11941,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 151.13 0)
+			(at 64.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
