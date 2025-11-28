@@ -7174,7 +7174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0568475a-6e55-4952-936a-050be0e55aa5")
-		(property "Reference" "C112"
+		(property "Reference" "C111"
 			(at 151.13 163.83 0)
 			(effects
 				(font
@@ -7228,7 +7228,7 @@
 		(instances
 			(project "axis"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C112")
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -10273,7 +10273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a41840ca-5582-40f4-9112-85bbc96b7670")
-		(property "Reference" "C113"
+		(property "Reference" "C112"
 			(at 67.945 163.195 90)
 			(effects
 				(font
@@ -10327,7 +10327,7 @@
 		(instances
 			(project "axis"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C113")
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -11904,7 +11904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e36fe40f-c4b2-45a4-9a32-8eb838783005")
-		(property "Reference" "C111"
+		(property "Reference" "C110"
 			(at 66.675 149.86 0)
 			(effects
 				(font
@@ -11958,7 +11958,7 @@
 		(instances
 			(project "axis"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C111")
+					(reference "C110")
 					(unit 1)
 				)
 			)
