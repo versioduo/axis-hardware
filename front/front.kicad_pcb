@@ -76,6 +76,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(aux_axis_origin 60 125)
 		(grid_origin 60 125)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -236,8 +237,8 @@
 		(uuid "c2d50b0b-42a1-4f07-9c47-fc6792076794")
 	)
 	(gr_rect
-		(start 87.9 114.6)
-		(end 98.1 117.9)
+		(start 95.9 114.6)
+		(end 106.1 117.9)
 		(stroke
 			(width 0.05)
 			(type solid)
