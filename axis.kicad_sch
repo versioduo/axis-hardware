@@ -357,7 +357,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pin" "1=K 2=A"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5094,18 +5094,6 @@
 		)
 		(uuid "41df1b22-66ae-4138-ae22-7c04a691224e")
 	)
-	(text "Revision 2"
-		(exclude_from_sim no)
-		(at 103.3812 43.5526 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "534bb2b4-04fa-4066-9577-b756bd9111d9")
-	)
 	(text "Mechanical / Production"
 		(exclude_from_sim no)
 		(at 165.1 143.51 0)
@@ -5494,6 +5482,10 @@
 	(no_connect
 		(at 125.73 175.26)
 		(uuid "6fdcdf18-da1e-4d86-8370-bab96cba5279")
+	)
+	(no_connect
+		(at 92.71 43.18)
+		(uuid "8d1a3136-a888-4214-b6da-c9cbe7dc6318")
 	)
 	(no_connect
 		(at 71.12 33.02)
@@ -7304,73 +7296,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0760014a-5f23-438d-b1dd-45dc2d97df44")
-		(property "Reference" "#PWR0107"
-			(at 99.06 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 42.5449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27ad3b8a-6f4a-428b-bd4c-d989681e29ca")
-		)
-		(instances
-			(project "axis"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 215.9 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7769,6 +7694,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04d62725-9abb-40ec-b476-f92cf9ca5fab")
 		)
@@ -7930,7 +7864,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 205.74 157.48 90)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -7972,6 +7906,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 205.74 157.48 0)
 			(effects
 				(font
@@ -8061,7 +8004,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 247.65 151.13 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8104,6 +8047,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 247.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 247.65 151.13 0)
 			(effects
 				(font
@@ -8550,7 +8502,7 @@
 		(lib_id "V2_Cortex_Debug:Cortex_Debug")
 		(at 125.73 101.6 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -8591,6 +8543,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -9440,7 +9401,7 @@
 		(lib_id "V2_Production:Order_Number")
 		(at 180.34 189.23 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9481,6 +9442,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 180.34 189.23 0)
 			(effects
 				(font
@@ -9634,7 +9604,7 @@
 		(lib_id "V2_Production:Layer_Numbers")
 		(at 232.41 157.48 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9675,6 +9645,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 232.41 157.48 0)
 			(effects
 				(font
@@ -9970,7 +9949,7 @@
 		(lib_id "V2_Bosch_Sensortec:BMM150")
 		(at 134.62 171.45 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10010,6 +9989,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 134.62 171.45 0)
 			(effects
 				(font
@@ -10069,7 +10057,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.86 154.94 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10111,6 +10099,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 276.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 276.86 154.94 0)
 			(effects
 				(font
@@ -11074,7 +11071,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.86 166.37 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11115,6 +11112,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 276.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 276.86 166.37 0)
 			(effects
 				(font
@@ -11339,7 +11345,7 @@
 		(lib_id "V2_Bosch_Sensortec:BHI160")
 		(at 49.53 173.99 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11378,6 +11384,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 49.53 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 49.53 173.99 0)
 			(effects
 				(font
@@ -11804,7 +11819,7 @@
 		(lib_id "V2_Connector_USB:JAE_DX07S016JA3")
 		(at 186.69 105.41 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -11845,6 +11860,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 186.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 186.69 105.41 0)
 			(effects
 				(font
@@ -12103,7 +12127,7 @@
 		(lib_id "V2_Mechanical:MountingHole_2mm")
 		(at 247.65 158.75 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12146,6 +12170,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 247.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 247.65 158.75 0)
 			(effects
 				(font
@@ -12303,7 +12336,7 @@
 		(lib_id "V2_Mechanical:Fiducial_Paste")
 		(at 276.86 177.8 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12345,6 +12378,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 276.86 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 276.86 177.8 0)
 			(effects
 				(font
@@ -12549,7 +12591,6 @@
 		)
 		(pin "48"
 			(uuid "7c5992aa-d91a-4a30-bcc4-d6fce0252601")
-			(alternate "GPIOIN")
 		)
 		(pin "49"
 			(uuid "7000c72b-44fe-4511-9259-c4a2f1ac666e")
@@ -12715,7 +12756,7 @@
 		(lib_id "V2_Artwork:Board_axis")
 		(at 179.07 175.26 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12757,6 +12798,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 179.07 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 179.07 175.26 0)
 			(effects
 				(font
@@ -12911,7 +12961,7 @@
 		(lib_id "V2_Artwork:V2-logo")
 		(at 180.34 156.21 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -12953,6 +13003,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 180.34 156.21 0)
 			(effects
 				(font
